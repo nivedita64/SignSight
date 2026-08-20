@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 import pyttsx3
 
-MODEL_PATH = "../models/sign_rf_model.pkl"
+MODEL_PATH = "models/sign_rf_model.pkl"
 IMG_SIZE = 64
 
 # Load the trained model
