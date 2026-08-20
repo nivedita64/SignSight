@@ -2,8 +2,8 @@ import os
 import pandas as pd
 from tqdm import tqdm
 
-DATASET_PATH = "../dataset/processed_combine_asl_dataset"
-OUTPUT_CSV = "../dataset/asl_combined_AtoL.csv"
+DATASET_PATH = "dataset/processed_combine_asl_dataset"
+OUTPUT_CSV = "dataset/asl_combined_AtoL.csv"
 INCLUDE_LABELS = list("abcdefghijkl")  # Only A–L
 
 data = []
