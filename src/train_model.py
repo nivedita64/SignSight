@@ -7,8 +7,8 @@ from sklearn.metrics import classification_report, accuracy_score
 import joblib
 from tqdm import tqdm
 
-CSV_PATH = "../dataset/asl_combined_AtoL.csv"
-MODEL_PATH = "../models/sign_rf_model.pkl"
+CSV_PATH = "dataset/asl_combined_AtoL.csv"
+MODEL_PATH = "models/sign_rf_model.pkl"
 IMG_SIZE = 64  # Resize images to 64x64
 
 # Load CSV
